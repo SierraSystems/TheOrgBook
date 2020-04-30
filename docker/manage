@@ -61,14 +61,14 @@ usage() {
             $0 start tob-web API_URL=http://docker.for.win.localhost:56325/api/v1
             $0 start tob-api
 
-      start - Same as up 
-    
-      restart - Re-starts the application containers, 
+      start - Same as up
+
+      restart - Re-starts the application containers,
                 useful when updating one of the container images during development.
 
-            You can pass in a list of containers to be restarted.  
+            You can pass in a list of containers to be restarted.
             By default all containers will be restarted.
-            
+
             The API_URL used by tob-web can also be redirected.
 
             Examples:
@@ -102,7 +102,9 @@ EOF
 # -----------------------------------------------------------------------------------------------------------------
 # Default Settings:
 # -----------------------------------------------------------------------------------------------------------------
-DEFAULT_CONTAINERS="wallet-db tob-db tob-solr tob-api schema-spy tob-web"
+# TODO get schema spy to work
+# DEFAULT_CONTAINERS="wallet-db tob-db tob-solr tob-api schema-spy tob-web"
+DEFAULT_CONTAINERS="wallet-db tob-db tob-solr tob-api tob-web"
 # -----------------------------------------------------------------------------------------------------------------
 # Functions:
 # -----------------------------------------------------------------------------------------------------------------
@@ -236,7 +238,8 @@ buildImages() {
   build-web
   build-solr
   build-db
-  build-schema-spy
+  # TODO get schema spy to work
+  # build-schema-spy
   build-api
 }
 
