@@ -4,10 +4,10 @@
     "topic": "organization"
   },
   "app": {
-    "title": "OrgBook BC Public Beta",
-    "title-prefix": "OrgBook BC Public Beta | ",
+    "title": "HealthBook BC",
+    "title-prefix": "HealthBook BC | ",
     "header": {
-      "title": "OrgBook BC",
+      "title": "HealthBook BC",
       "logo-alt-text": "BC Government Logo"
     }
   },
@@ -23,7 +23,6 @@
     "entity_type": "Registration Type",
     "home_jurisdiction": "Home Jurisdiction",
     "name_short": "Name",
-    "reason_description": "Credential Reason",
     "registered_jurisdiction": "Registered Jurisdiction",
     "registration_date": "Registration Date",
     "reason_description": "Credential Issue Reason",
@@ -595,8 +594,8 @@
     }
   },
   "home": {
-    "about-title": "About OrgBook BC",
-    "title": "British Columbia's Verifiable Organizations"
+    "about-title": "About Health Book",
+    "title": "British Columbia's Verifiable Health Practioners"
   },
   "jurisdiction": {
     "general": {

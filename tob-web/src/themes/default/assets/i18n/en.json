@@ -5,8 +5,8 @@
   "app": {
     "breadcrumb": "Home",
     "header": {
-      "title": "OrgBook",
-      "logo-alt-text": "OrgBook Logo"
+      "title": "HealthBook",
+      "logo-alt-text": "HealthBook Logo"
     },
     "footer": {
       "disclaimer": "Disclaimer",
@@ -15,8 +15,8 @@
       "copyright": "Copyright",
       "contact": "Contact Us"
     },
-    "title": "OrgBook Beta",
-    "title-prefix": "OrgBook Beta | "
+    "title": "HealthBook",
+    "title-prefix": "HealthBook | "
   },
   "address": {
     "registered-office": "Registered Office"
@@ -111,11 +111,11 @@
     "verified": "Verified"
   },
   "home": {
-    "about-title": "About the OrgBook",
+    "about-title": "About the HealthBook",
     "breadcrumb": "Home",
-    "title": "Welcome to The OrgBook",
+    "title": "Welcome to The HealthBook",
     "title-certs": "Verifiable credentials held",
-    "title-orgs": "Active legal entities",
+    "title-orgs": "Active health practitioners",
     "title-this-week": "Credentials added this week"
   },
   "issuer": {
@@ -150,7 +150,7 @@
     "breadcrumb": "Search",
     "by-name": "Search by Name",
     "by-location": "Search by Location",
-    "input-label": "Organization Name or Registration ID",
+    "input-label": "Practitioner Name or Registration ID",
     "no-results": "No results",
     "placeholder": "search",
     "prompt": "Please enter your search query above in order to proceed.",
@@ -159,12 +159,12 @@
     "results-title": "Search Results",
     "return-link": "Back to Search",
     "running": "Performing search ...",
-    "title": "Find an organization"
+    "title": "Find a Health Practitioner"
   },
   "topic": {
-    "breadcrumb": "Organization",
+    "breadcrumb": "Health Practitioner",
     "related-to": "Related To",
-    "return-link": "Back to Organization",
+    "return-link": "Back to Health Practitioner",
     "source-id": "Registration ID",
     "view-link": "Show Details"
   }
