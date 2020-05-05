@@ -150,7 +150,7 @@
     "breadcrumb": "Search",
     "by-name": "Search by Name",
     "by-location": "Search by Location",
-    "input-label": "Practitioner Name or Registration ID",
+    "input-label": "Practitioner Name",
     "no-results": "No results",
     "placeholder": "search",
     "prompt": "Please enter your search query above in order to proceed.",
