@@ -165,7 +165,7 @@
     "breadcrumb": "Health Practitioner",
     "related-to": "Related To",
     "return-link": "Back to Health Practitioner",
-    "source-id": "Registration ID",
+    "source-id": "HPDID",
     "view-link": "Show Details"
   }
 }
